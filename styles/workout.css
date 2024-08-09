@@ -1,63 +1,119 @@
-
 /* font related styles */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+
 
 .inter {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
+}
+
+.grey-qo-regular {
+    font-family: "Grey Qo", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
 
 /* shared styles */
 
-.bg-dark{
+.bg-dark {
     background-color: rgba(17, 17, 17, 1);
 }
 
-.txt-color{
+.txt-color {
     color: rgba(255, 255, 255, 1)
 }
-.display-flex{
+
+.txt-opacity{
+    opacity: 50%;
+}
+
+.display-flex {
     display: flex;
+}
+
+.in-shape {
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 30px 0px;
+}
+
+.align-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-title{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.description{
+    opacity: 50%;
+}
+
+.secondary-bg{
+    background-color: #222222;
 }
 
 /* header styles */
 
+
 /* navbar related style */
 
-.navbar{
+.navbar {
     justify-content: space-between;
 }
 
-.brand{
+/* .nav-design{
+    border: 10px;
+    color: white;
+    border-radius: 42px;
+} */
+
+.brand {
     font-weight: 800;
     font-size: 36px;
     font-style: italic;
     color: rgba(230, 83, 60, 1);
 }
 
-.nav-item{
+.nav-item {
     list-style: none;
     margin-right: 47px;
 }
 
-.nav-link{
+.nav-link {
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
 }
 
-.navbar{
+.nav-background{
+    background-color: rgba(230, 83, 60, 1);;
+}
+
+.navbar {
     max-width: 1440px;
     margin: 0 auto;
 }
 
-.nav-item{
+.nav-item {
     list-style: none;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: rgba(230, 83, 60, 1);
     color: rgba(255, 255, 255, 1);
     padding: 16px 46.5px;
@@ -66,7 +122,7 @@
     border-radius: 42px;
 }
 
-.btn-secondary{
+.btn-secondary {
     background-color: black;
     color: rgba(255, 255, 255, 1);
     padding: 16px 46.5px;
@@ -74,4 +130,94 @@
     font-weight: 600;
     border: 1px;
     border-radius: 42px;
-}    
+}
+
+/* banner related styles */
+
+.banner-container{
+
+}
+
+.banner-text{
+    height: 281px;
+    width: 520px;
+    
+}
+
+.banner-title{
+    font-size: 78px;
+    font-weight: 900;
+}
+
+
+/* change your habit related styles */
+
+.habit-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 58px;
+}
+
+.round-img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.habit-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-button{
+    margin-top: 32px;
+}
+
+/* run extra milage related style */
+
+.promo-section {
+    background-color: #222222;
+    border-radius: 20px;
+}
+
+.run-container{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 32px;
+}
+
+.man-running {
+    width: 366px;
+    height: 312px;
+    border-radius: 20px;
+}
+
+.our-features{
+    margin-left: 130px;
+    max-width: 530px;
+}
+
+.text-section{
+    width: 443px;
+}
+
+/* meet our team related style */
+
+.team-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 150px;
+    justify-content: center;
+}
+
+.meet-img{
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+}
+

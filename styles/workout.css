@@ -25,6 +25,10 @@
 
 /* shared styles */
 
+.bg-linear-grad{
+    background-color: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+
 .bg-dark {
     background-color: rgba(17, 17, 17, 1);
 }
@@ -221,3 +225,57 @@
     border-radius: 18px;
 }
 
+/* footer styles */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+}
+.footer-column1{
+    width: 443px;
+    height: 176px;
+}
+
+.footer-column{
+    width: 33.34%;
+}
+
+.footer-column ul {
+    list-style: none; /* Removes bullet points */
+    padding-left: 0;  /* Removes padding on the left side of the list */
+    margin: 0;        /* Removes margin */
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+    padding-left: 0;  /* Ensures no padding on the list items */
+}
+
+.footer-brand {
+    width: 256px;
+    height: 84px;
+    font-weight: 800;
+    font-size: 70px;
+    font-style: italic;
+    color: rgba(230, 83, 60, 1);
+}
+
+.footer-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255);
+    opacity: 50%;
+}
+
+.footer-get-started{
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 39px;
+}
+
+/* .footer-in-shape {
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 30px 0px;
+} */

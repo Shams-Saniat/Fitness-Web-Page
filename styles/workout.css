@@ -162,6 +162,7 @@
     align-items: center;
     gap: 40px;
     padding-top: 58px;
+    margin-top: 58px;
 }
 
 .round-img{
@@ -180,11 +181,16 @@
     margin-top: 32px;
 }
 
+.habit-name{
+    align-items: center;
+}
+
 /* run extra milage related style */
 
 .promo-section {
     background-color: #222222;
     border-radius: 20px;
+    margin-top: 101px;
 }
 
 .run-container{
@@ -209,13 +215,71 @@
     width: 443px;
 }
 
+/* bmi related styles */
+
+.bmi-margin{
+    margin-top: 200px;
+    
+}
+.bmi-container{
+    
+}
+
+.bmi-section{
+    
+}
+
+.duijoner-abba{
+    margin-top: 88px;
+    padding-top: 52px;
+    padding-bottom: 52px;
+    padding-left: 187px;
+    padding-right: 189px;
+    justify-content: space-between;
+}
+
+.bmi-chart{
+    width: 443px;
+}
+
+.bmi-chart, .bmi-calculator {
+    
+}
+
+/* .bmi-calculator{
+    width: 577px;
+} */
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* This ensures borders don't overlap */
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #444; /* Border for each cell */
+    text-align: center;
+}
+
+td {
+    opacity: 70%;
+}
+
 /* meet our team related style */
 
 .team-container{
+    margin-top: 58px;
+    margin-bottom: 88px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    padding: 150px;
+    /* padding: 54px; */
     justify-content: center;
 }
 

@@ -78,16 +78,11 @@
     justify-content: space-between;
 }
 
-.nav>ul>li {
-    border: 1px solid white;
-    border-radius: 50%;
+.nav-item {
+    /* border: 1px solid gray; */
+    /* border-radius: 20px; */
+    padding: 10px 20px;
 }
-
-/* .nav-design{
-    border: 10px;
-    color: white;
-    border-radius: 42px;
-} */
 
 .brand {
     font-weight: 800;
@@ -96,7 +91,7 @@
     color: rgba(230, 83, 60, 1);
 }
 
-.nav-item {
+.nav-container {
     list-style: none;
     margin-right: 47px;
 }
@@ -106,9 +101,9 @@
     color: rgba(255, 255, 255, 1);
 }
 
-.nav-background {
+.orange {
     background-color: rgba(230, 83, 60, 1);
-    ;
+    border-radius: 20px;
 }
 
 .navbar {
@@ -145,7 +140,6 @@ button:hover {
 
 /* banner related styles */
 
-.banner-container {}
 
 .banner-text {
     height: 281px;
@@ -279,6 +273,7 @@ td {
 
 .bmi-calculator input,
 .bmi-calculator select {
+    margin-bottom: 12px;
     grid-column: span 2;
     padding: 10px;
     border-radius: 8px;

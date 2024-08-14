@@ -74,6 +74,10 @@
 
 /* navbar related style */
 
+.hide{
+    display: none;
+}
+
 .navbar {
     justify-content: space-between;
 }
@@ -391,6 +395,11 @@ footer {
     .habit-container,
     .run-container{
         flex-direction: column;
+    }
+
+    .hamburger{
+        display: block;
+        color: white;
     }
 
     .banner-text {

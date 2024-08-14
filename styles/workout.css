@@ -152,6 +152,10 @@ button:hover {
     font-weight: 900;
 }
 
+.banner-container{
+    display: flex;
+}
+
 
 /* change your habit related styles */
 
@@ -337,23 +341,15 @@ footer {
     height: 176px;
 }
 
-/* .footer-column{
-    width: 33.34%;
-} */
-
 .footer-column ul {
     list-style: none;
-    /* Removes bullet points */
     padding-left: 0;
-    /* Removes padding on the left side of the list */
     margin: 0;
-    /* Removes margin */
 }
 
 .footer-column ul li {
     margin-bottom: 10px;
     padding-left: 0;
-    /* Ensures no padding on the list items */
 }
 
 .footer-brand {
@@ -375,4 +371,107 @@ footer {
     font-weight: 700;
     font-size: 32px;
     margin-bottom: 39px;
+}
+
+
+/* All rights reserved text */
+.footer-rights {
+    text-align: center;
+    margin-top: 20px;
+    opacity: 50%;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+
+@media screen and (max-width: 576px){
+    .banner-container,
+    .habit-container,
+    .run-container{
+        flex-direction: column;
+    }
+
+    .banner-text {
+        height: 400px;
+        width: 100%;
+    }
+
+    .banner-title {
+        font-size: 40px;
+        font-weight: 800;
+    }
+    
+    .team-container {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .bmi-container {
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .bmi-chart,
+    .bmi-calculator {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .nav-container {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .banner-button{
+        margin-bottom: 200px;
+    }
+
+    .text-section, .bmi-container{
+        width: 100%;
+    }
+
+    .man-running{
+        width: 90%;
+    }
+    
+    .description{
+        margin-right: 20px;
+    }
+
+    .habit-container{
+        width: 90%;
+    }
+
+    /* footer responsive */
+    footer {
+        flex-direction: column;
+        padding: 50px 20px;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .footer-column {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-brand {
+        font-size: 50px;
+        width: auto;
+        height: auto;
+    }
+
+    .footer-get-started {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
 }

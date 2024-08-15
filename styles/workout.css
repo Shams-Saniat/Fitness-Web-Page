@@ -172,7 +172,7 @@ button:hover {
     position: relative;
 }
 
-/* tab related styles */
+/* box related styles */
 
 
 .box-sizing1 {
@@ -474,6 +474,39 @@ footer {
     .hamburger {
         display: block;
         color: white;
+    }
+
+    /* box */
+    .box-sizing1{
+        height: 80px;
+        width: 150px;
+    }
+
+    #numeric1{
+        font-size: 24px;
+        font-weight: 800;
+    }
+    
+    #number-section1{
+        padding: 10px 63px 82px 65px;
+        margin-top: -157px;
+        margin-left: 15px;
+    }
+
+    .box-sizing2 {
+        height: 120px;
+        width: 150px;
+    }
+    
+    #numeric2{
+        font-size: 30px;
+        font-weight: 800;
+    }
+    
+    #number-section2{
+        padding: 11px 53px 88px 38px;
+        margin-top: -457px;
+        margin-left: 230px;
     }
 
     .banner-text {

@@ -14,7 +14,7 @@ This project demonstrates my ability to create a **fitness-focused web page** us
 - **CSS**: For styling and layout.
 
 ## Getting Started
-1. Clone the repository: `git clone https://github.com/Shams-Saniat/Assignment-2.git`
+1. Clone the repository: `https://github.com/Shams-Saniat/Fitness-Web-Page`
 2. Open `index.html` in your browser to view the page.
 
 ## Contributing

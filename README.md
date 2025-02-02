@@ -15,7 +15,7 @@ This project demonstrates my ability to create a **fitness-focused web page** us
 
 ## Getting Started
 1. Clone the repository: `https://github.com/Shams-Saniat/Fitness-Web-Page`
-2. Open `index.html` in your browser to view the page.
+2. Open `https://shams-saniat.github.io/Fitness-Web-Page/` in your browser to view the page.
 
 ## Contributing
 Feel free to submit issues or pull requests to improve the project.
